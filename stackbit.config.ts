@@ -3,7 +3,7 @@ import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
-  cmsName: "contentful",
+  cmsName: "netlifycms",
   nodeVersion: "20",
   ssgName: "custom",
   devCommand: "npm run dev -- -p {PORT}",
