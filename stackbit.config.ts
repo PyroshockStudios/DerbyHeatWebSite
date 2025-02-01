@@ -4,7 +4,7 @@ import { GitContentSource } from "@stackbit/cms-git";
 export default defineStackbitConfig({
   stackbitVersion: "~0.6.0",
   cmsName: "contentful",
-  nodeVersion: "16",
+  nodeVersion: "20",
   ssgName: "custom",
   devCommand: "npm run dev -- -p {PORT}",
   experimental: {
