@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build && CI=false && npm install && npm run build",
+    "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt dev"
   },
