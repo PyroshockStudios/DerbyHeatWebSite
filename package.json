@@ -11,5 +11,8 @@
     "@stackbit/cms-git": "^1.0.32",
     "@stackbit/types": "^2.1.12",
     "nuxt": "^3.15.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
