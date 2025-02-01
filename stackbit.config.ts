@@ -2,9 +2,18 @@ import { defineStackbitConfig } from "@stackbit/types";
 import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
-  stackbitVersion: '~0.6.0',
-  ssgName: 'nuxt',
-  nodeVersion: '20',
+  stackbitVersion: "~0.6.0",
+  cmsName: "contentful",
+  nodeVersion: "16",
+  ssgName: "custom",
+  devCommand: "npm run dev -- -p {PORT}",
+  experimental: {
+    ssg: {
+      name: "Nuxt3",
+      logPatterns: { up: ["Local:    http"] },
+      passthrough: ["/vite-hmr/**"]
+    }
+  },
   modelExtensions: [
     {
       name: "Page", 
