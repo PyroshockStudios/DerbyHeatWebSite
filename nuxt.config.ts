@@ -3,8 +3,10 @@ export default {
   target: 'static',
 
   build: {
-    
+      analyze: true
   },
+
+  debug: true,
 
   compatibilityDate: '2025-02-01'
 };
