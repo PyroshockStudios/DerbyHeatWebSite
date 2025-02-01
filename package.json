@@ -2,12 +2,13 @@
   "name": "DerbyHeatWebsite",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nuxt dev", 
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start"
   },
   "dependencies": {
+    "@stackbit/cms-git": "^1.0.32",
     "@stackbit/types": "^2.1.12",
     "nuxt": "^3.15.4"
   }
