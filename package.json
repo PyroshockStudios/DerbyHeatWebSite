@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt dev"
   },
   "dependencies": {
     "@stackbit/cms-git": "^1.0.32",
