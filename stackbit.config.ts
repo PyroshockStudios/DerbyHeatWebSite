@@ -4,7 +4,7 @@ import { GitContentSource } from "@stackbit/cms-git";
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'nuxt',
-  nodeVersion: '20.11.1',
+  nodeVersion: '11.1.0',
   modelExtensions: [
     {
       name: "Page", 
