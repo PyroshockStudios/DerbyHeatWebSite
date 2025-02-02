@@ -1,4 +1,5 @@
 {
     "type": "Page",
-    "title": "ExampleTitle"
+    "title": "ExampleTitle",
+    "content": "ExampleContent"
 }

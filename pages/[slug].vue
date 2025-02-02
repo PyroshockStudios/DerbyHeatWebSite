@@ -12,14 +12,10 @@ const page = ref({ title: '', content: '' });
 const route = useRoute();
 const slug = route.params.slug;
 
+console.log(`[slug] value is ${slug}`)
 onMounted(async () => {
     try {
-        const response = await fetch(`/content/pages/${slug}.json`);
-        if (response.ok) {
-            page.value = await response.json();
-        } else {
-            throw new Error('Página não encontrada');
-        }
+        page.value = await import(`@/content/pages/${slug}.json`);
     } catch (error) {
         console.error(error);
     }
