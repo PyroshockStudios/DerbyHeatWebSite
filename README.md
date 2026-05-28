@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ef2d866-669a-486f-968c-e31b5cb23fb7/deploy-status)](https://app.netlify.com/projects/derbyheat/deploys)
 # Derby Heat Website
 
 
